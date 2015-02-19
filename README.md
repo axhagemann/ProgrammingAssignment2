@@ -1,3 +1,11 @@
+### Answer to Coursera R Programming Course - Assignment 2
+
+Please find the solution to the R Programming Assignment in cachematrix.R
+
+Below is the original readme.md
+
+
+
 ### Introduction
 
 This second programming assignment will require you to write an R
