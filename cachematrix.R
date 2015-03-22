@@ -1,10 +1,11 @@
 ##
 ## cachematrix.R
 ## 
-## Programming Assignment 2 (week 3) of data science course on coursera.org https://class.coursera.org/rprog-011
+## Programming Assignment 2 (week 3) of data science course on coursera.org
 ## 
 ## Task: Create a cached inverse matrix object
 ##
+## Date: 22/03/2015
 ## Usage:
 ## M <- matrix(rnorm(9), nrow=3, ncol=3)
 ## to create a random matrix
