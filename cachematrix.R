@@ -5,7 +5,7 @@
 ## 
 ## Task: Create a cached inverse matrix object
 ##
-## Date: 22/03/2015
+## Date: 23/10/2015 (dd/mm/yyyy)
 ## Usage:
 ## M <- matrix(rnorm(9), nrow=3, ncol=3)
 ## to create a random matrix
@@ -15,13 +15,16 @@
 ## cacheSolve(cacheMatrix)
 ## second run shows that cached object has been found and solve() function is not run
 ## 
-##
+## get/set commands:
 ## cacheMatrix$set(M) # Specify that matrix M should be cached
 ## cacheMatrix$get() # Return original matrix M
 ## cacheMatrix$getInverse() # Return inverse matrix
 
 
+## function to cache matrix
+# Input: Matrix
 makeCacheMatrix <- function(x = matrix()) {
+# initialize variable
 cachedInverseMatrix <- NULL
 set <- function(ma) {
 		x <<- ma
@@ -30,8 +33,10 @@ set <- function(ma) {
 get <- function() {
 	x
 }
+# get / set
 setInverse <- function(inverse) cachedInverseMatrix <<- inverse
 getInverse <- function() cachedInverseMatrix
+
 list(set = set, 
 	get = get,
 	setInverse = setInverse,
