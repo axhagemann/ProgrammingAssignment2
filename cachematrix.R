@@ -5,7 +5,7 @@
 ## 
 ## Task: Create a cached inverse matrix object
 ##
-## Date: 23/10/2015 (dd/mm/yyyy)
+## Date: 22/04/2017 (dd/mm/yyyy)
 ## Usage:
 ## M <- matrix(rnorm(9), nrow=3, ncol=3)
 ## to create a random matrix
@@ -19,7 +19,7 @@
 ## cacheMatrix$set(M) # Specify that matrix M should be cached
 ## cacheMatrix$get() # Return original matrix M
 ## cacheMatrix$getInverse() # Return inverse matrix
-
+ 
 
 ## function to cache matrix
 # Input: Matrix
